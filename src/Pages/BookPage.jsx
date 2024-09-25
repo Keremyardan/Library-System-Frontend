@@ -5,10 +5,10 @@ import UpdateModal from '../components/Book/UpdateModal';
 import BookForm from '../components/Book/BookForm';
 import ModalComponent from '../components/ModalComponent';
 
-const API_URL = 'https://kitap-yonetim-sistemi-backend.onrender.com/api/v1/books';
-const AUTHORS_URL = 'https://kitap-yonetim-sistemi-backend.onrender.com/api/v1/authors';
-const PUBLISHERS_URL = 'https://kitap-yonetim-sistemi-backend.onrender.com/api/v1/publishers';
-const CATEGORIES_URL = 'https://kitap-yonetim-sistemi-backend.onrender.com/api/v1/categories'; // Kategoriler API'si
+const API_URL = 'https://library-system-backend-apou.onrender.com/api/v1/books';
+const AUTHORS_URL = 'https://library-system-backend-apou.onrender.com/api/v1/authors';
+const PUBLISHERS_URL = 'https://library-system-backend-apou.onrender.com/api/v1/publishers';
+const CATEGORIES_URL = 'https://library-system-backend-apou.onrender.com/api/v1/categories'; // Kategoriler API'si
 
 const BookPage = () => {
   const [books, setBooks] = useState([]);
